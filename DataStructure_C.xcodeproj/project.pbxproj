@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1477D5D0230B70130085811D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1477D5CF230B70130085811D /* main.c */; };
+		1477D5DD230B70AD0085811D /* HashTable_Basic.c in Sources */ = {isa = PBXBuildFile; fileRef = 1477D5DC230B70AD0085811D /* HashTable_Basic.c */; };
+		1477D5E0230B74410085811D /* HashTable_Chaining.c in Sources */ = {isa = PBXBuildFile; fileRef = 1477D5DF230B74410085811D /* HashTable_Chaining.c */; };
+		1477D5E3230B74CE0085811D /* HashTable_OpenAddressing.c in Sources */ = {isa = PBXBuildFile; fileRef = 1477D5E2230B74CE0085811D /* HashTable_OpenAddressing.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		1477D5CC230B70130085811D /* DataStructure_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		1477D5CF230B70130085811D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1477D5DB230B70AD0085811D /* HashTable_Basic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable_Basic.h; sourceTree = "<group>"; };
+		1477D5DC230B70AD0085811D /* HashTable_Basic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HashTable_Basic.c; sourceTree = "<group>"; };
+		1477D5DE230B74410085811D /* HashTable_Chaining.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable_Chaining.h; sourceTree = "<group>"; };
+		1477D5DF230B74410085811D /* HashTable_Chaining.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HashTable_Chaining.c; sourceTree = "<group>"; };
+		1477D5E1230B74CE0085811D /* HashTable_OpenAddressing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable_OpenAddressing.h; sourceTree = "<group>"; };
+		1477D5E2230B74CE0085811D /* HashTable_OpenAddressing.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HashTable_OpenAddressing.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +67,46 @@
 			isa = PBXGroup;
 			children = (
 				1477D5CF230B70130085811D /* main.c */,
+				1477D5D6230B70170085811D /* Hash Table */,
 			);
 			path = DataStructure_C;
+			sourceTree = "<group>";
+		};
+		1477D5D6230B70170085811D /* Hash Table */ = {
+			isa = PBXGroup;
+			children = (
+				1477D5DA230B70550085811D /* Open Addressing */,
+				1477D5D9230B70440085811D /* Chaning */,
+				1477D5D7230B70350085811D /* Basic */,
+			);
+			path = "Hash Table";
+			sourceTree = "<group>";
+		};
+		1477D5D7230B70350085811D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				1477D5DB230B70AD0085811D /* HashTable_Basic.h */,
+				1477D5DC230B70AD0085811D /* HashTable_Basic.c */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		1477D5D9230B70440085811D /* Chaning */ = {
+			isa = PBXGroup;
+			children = (
+				1477D5DE230B74410085811D /* HashTable_Chaining.h */,
+				1477D5DF230B74410085811D /* HashTable_Chaining.c */,
+			);
+			path = Chaning;
+			sourceTree = "<group>";
+		};
+		1477D5DA230B70550085811D /* Open Addressing */ = {
+			isa = PBXGroup;
+			children = (
+				1477D5E1230B74CE0085811D /* HashTable_OpenAddressing.h */,
+				1477D5E2230B74CE0085811D /* HashTable_OpenAddressing.c */,
+			);
+			path = "Open Addressing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1477D5E3230B74CE0085811D /* HashTable_OpenAddressing.c in Sources */,
+				1477D5E0230B74410085811D /* HashTable_Chaining.c in Sources */,
 				1477D5D0230B70130085811D /* main.c in Sources */,
+				1477D5DD230B70AD0085811D /* HashTable_Basic.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
