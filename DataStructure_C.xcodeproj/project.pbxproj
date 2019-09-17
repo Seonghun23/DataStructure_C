@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141767272330F0280046405E /* hash_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 141767262330F0280046405E /* hash_table.c */; };
 		1477D5D0230B70130085811D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1477D5CF230B70130085811D /* main.c */; };
 		1477D5DD230B70AD0085811D /* HashTable_Basic.c in Sources */ = {isa = PBXBuildFile; fileRef = 1477D5DC230B70AD0085811D /* HashTable_Basic.c */; };
 		1477D5E0230B74410085811D /* HashTable_Chaining.c in Sources */ = {isa = PBXBuildFile; fileRef = 1477D5DF230B74410085811D /* HashTable_Chaining.c */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		141767252330F0280046405E /* hash_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hash_table.h; sourceTree = "<group>"; };
+		141767262330F0280046405E /* hash_table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hash_table.c; sourceTree = "<group>"; };
 		1477D5CC230B70130085811D /* DataStructure_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		1477D5CF230B70130085811D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		1477D5DB230B70AD0085811D /* HashTable_Basic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable_Basic.h; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142AA4412316A45E0012F376 /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
 		1477D5C3230B70130085811D = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				1477D5CF230B70130085811D /* main.c */,
+				142AA4412316A45E0012F376 /* Linked List */,
 				1477D5D6230B70170085811D /* Hash Table */,
 			);
 			path = DataStructure_C;
@@ -78,6 +89,8 @@
 				1477D5DA230B70550085811D /* Open Addressing */,
 				1477D5D9230B70440085811D /* Chaning */,
 				1477D5D7230B70350085811D /* Basic */,
+				141767252330F0280046405E /* hash_table.h */,
+				141767262330F0280046405E /* hash_table.c */,
 			);
 			path = "Hash Table";
 			sourceTree = "<group>";
@@ -165,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141767272330F0280046405E /* hash_table.c in Sources */,
 				1477D5E3230B74CE0085811D /* HashTable_OpenAddressing.c in Sources */,
 				1477D5E0230B74410085811D /* HashTable_Chaining.c in Sources */,
 				1477D5D0230B70130085811D /* main.c in Sources */,
